@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import components.OfficeComponent.*?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<?import components.WalletComponent.*?>
+<fx:root type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171"
+         xmlns:fx="http://javafx.com/fxml/1">
+    <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="0.0">
+        <center>
+            <ScrollPane fitToWidth="true" styleClass="scroll-pane" BorderPane.alignment="CENTER">
+                <VBox alignment="CENTER">
+                    <HBox alignment="CENTER">
+                        <OfficeComponent fx:id="officeComponent"/>
+                    </HBox>
+                </VBox>
+            </ScrollPane>
+        </center>
+        <top>
+            <HBox>
+                <Region HBox.hgrow="ALWAYS"/>
+                <WalletComponent BorderPane.alignment="CENTER"/>
+                <Region HBox.hgrow="ALWAYS"/>
+            </HBox>
+        </top>
+    </BorderPane>
+    <stylesheets>
+        <URL value="@MainComponent.css"/>
+    </stylesheets>
+</fx:root>

@@ -1,0 +1,5 @@
+.room--summary {
+    -fx-border-color: #99908a;
+    -fx-border-width: 0 0 0 3;
+    -fx-min-width: 200;
+}

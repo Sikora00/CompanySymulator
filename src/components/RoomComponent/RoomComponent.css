@@ -1,0 +1,11 @@
+.room {
+    -fx-min-height: 100;
+    -fx-min-width: 400;
+    -fx-max-width: 800;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.room-hbox {
+    -fx-min-width: 800;
+}

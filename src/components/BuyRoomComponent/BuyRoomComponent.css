@@ -1,0 +1,10 @@
+.buy-room__label {
+    -fx-background-color: #b2ff59;
+    -fx-padding: 30px 100px 30px 100px;
+    -fx-cursor: not-allowed;
+    -fx-background-insets: 15px;
+    -fx-font-size: 15px;
+    -fx-text-alignment: center;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0)
+}

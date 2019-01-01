@@ -1,0 +1,41 @@
+.participant {
+    -fx-padding: 20, 12, 15, 12;
+}
+
+.participant__button {
+    -fx-background-color: #3c7fb1,
+    linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 50;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-pref-width: 60;
+    -fx-pref-height: 60;
+}
+
+.participant__button:pressed {
+    -fx-background-color: #3c7fb1,
+    linear-gradient(#aef1fd 0%, #97e8fc 49%, #66ebfd 50%, #48b6f5 100%);
+}
+
+.participant__button--special {
+    -fx-background-color: #ffe500,
+    linear-gradient(#FFFFFA 0%, #FEFFCB 21%, #FCFF80 55%, #FCFF5E 71%, #FCFF5E 100%);
+}
+
+.participant__button--special:pressed {
+    -fx-background-color: #ffe500,
+    linear-gradient(#fffec5 0%, #faff74 21%, #fdff62 55%, #fffa2b 71%, #FCFF5E 100%);
+}
+
+.participant__button--disabled {
+    -fx-background-color: #a7a7a7;
+    -fx-border-style: dashed;
+    -fx-border-radius: 50;
+    -fx-border-insets: -2;
+    -fx-border-width: 3;
+}
+
+.participant__button--disabled:pressed {
+    -fx-background-color: grey;
+}
